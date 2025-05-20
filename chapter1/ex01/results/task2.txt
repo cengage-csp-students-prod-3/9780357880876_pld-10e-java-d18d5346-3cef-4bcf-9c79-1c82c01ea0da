@@ -1,9 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Modify the program to display a second line of output.
-Reason: Unable to find '["That's awesome!"]' in the program's output.
-I'm learning how to program in java.
-.
-Error : AssertionError - Unable to find That's awesome! in the program's output.
-Timestamp: 2025-05-20 01:48:58.763206
+Reason: The correct message was found in the program's output.None
+Timestamp: 2025-05-20 01:52:19.673309
