@@ -1,4 +1,4 @@
-## Your Tasks
+## Instructions
 
 In this lab, you complete a partially written Java program that includes two functions that require a single parameter.
 
@@ -6,4 +6,4 @@ The program continuously prompts the user for an integer until the user enters *
 
 The source code file provided for this lab includes the necessary input statement. Comments are included in the file to help you write the remainder of the program.
 
-## Instructions
+## Your Tasks

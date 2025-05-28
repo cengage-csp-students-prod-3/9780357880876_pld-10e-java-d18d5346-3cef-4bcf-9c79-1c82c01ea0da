@@ -1,4 +1,4 @@
-## Your Tasks
+## Instructions
 
 In this lab, you complete a pre-written Java program that calculates an employee’s end-of-year bonus and prints the employee’s name, yearly salary, performance rating, and bonus. In this program, bonuses are calculated based on employees’ annual salary and their performance rating. The rating system is contained in **Table 4-5**.
 
@@ -13,6 +13,6 @@ In this lab, you complete a pre-written Java program that calculates an employee
 _Table 4-5_ Employee ratings and bonuses
 </sup>
  
-## Instructions
+## Your Tasks
 
 Variables have been declared for you, and the input statements and output statements have been written. Read them over carefully before you proceed to the next step.

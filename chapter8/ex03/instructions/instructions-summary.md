@@ -1,4 +1,4 @@
-## Your Tasks
+## Instructions
 
 In this lab, you will complete a Java program that uses a two-dimensional array to store data for the Building Block Day Care Center.
 
@@ -18,4 +18,4 @@ Comments in the code tell you where to write your statements. Weekly rates can b
 
 <sup>_Table 8-2_</sup>
 
-## Instructions
+## Your Tasks

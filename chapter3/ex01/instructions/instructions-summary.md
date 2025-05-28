@@ -1,4 +1,4 @@
-## Your Tasks
+## Instructions
 
 In this lab, you use the flowchart and pseudocode found in the figures below to add code to a partially created Java program. When completed, college admissions officers should be able to use the Java program to determine whether to accept or reject a student, based on his or her test score and class rank.
 
@@ -33,4 +33,4 @@ start
 stop
 ```
 
-## Instructions
+## Your Tasks

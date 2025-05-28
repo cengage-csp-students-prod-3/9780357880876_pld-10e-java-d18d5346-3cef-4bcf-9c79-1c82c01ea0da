@@ -1,5 +1,5 @@
-## Your Tasks
+## Instructions
 
 In this lab, you compile and execute a pre-written Java program.
 
-## Instructions
+## Your Tasks

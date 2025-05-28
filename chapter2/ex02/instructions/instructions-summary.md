@@ -1,8 +1,8 @@
-## Your Tasks
+## Instructions
 
 In this lab, you declare and initialize constants in a Java program. The program, which is in a file named **NewAge2.java**, calculates your age in the year 2050.
 
-## Instructions
+## Your Tasks
 <!--
 {
     "CopyExercise": {

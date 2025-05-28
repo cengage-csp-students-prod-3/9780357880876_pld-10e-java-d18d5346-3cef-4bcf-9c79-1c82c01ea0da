@@ -1,4 +1,4 @@
-## Your Tasks
+## Instructions
 
 In this lab, you complete a pre-written Java program for a carpenter who creates personalized house signs. The program is supposed to compute the price of any sign a customer orders, based on the following facts:
 
@@ -9,4 +9,4 @@ In this lab, you complete a pre-written Java program for a carpenter who creates
 - Black or white characters are included in the minimum charge; there is an additional $15
   charge for gold-leaf lettering.
 
-## Instructions
+## Your Tasks

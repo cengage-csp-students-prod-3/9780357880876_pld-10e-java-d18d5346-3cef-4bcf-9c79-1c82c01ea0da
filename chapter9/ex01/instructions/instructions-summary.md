@@ -1,4 +1,4 @@
-## Your Tasks
+## Instructions
 
 In this lab, you complete a partially pre-written Java program that includes a function with no parameters.
 
@@ -6,4 +6,4 @@ The program asks the user if they have preregistered for art show tickets. If th
 
 The source code file provided for this lab includes the necessary variable declarations and `input` statement. Comments are included in the file to help you write the remainder of the program.
 
-## Instructions
+## Your Tasks
