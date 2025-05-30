@@ -12,7 +12,7 @@ public class NewAge2
       // Declare a constant named YEAR and initialize it to 2050
       final int YEAR = 2050;
       // Edit this statement so that it uses the constant named YEAR.
-      newAge = currentAge + (2050 - currentYear);
+      newAge = currentAge + (YEAR - currentYear);
 
       System.out.println("My Current Age is " + currentAge);
       // Edit this output statement so that is uses the constant named YEAR. 
