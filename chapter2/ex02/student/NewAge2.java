@@ -2,21 +2,21 @@
 // Input:  None.
 // Output: Your current age followed by your age in 2050.
 
-public class NewAge
+public class NewAge2
 {
    public static void main(String args[])
    {
-      int newAge = 45;
+      int currentAge = 25;
+      int newAge;
+      int currentYear = 2014;
+      // Declare a constant named YEAR and initialize it to 2050
 
-      int currentAge = 20; // example age, replace with your own
+      // Edit this statement so that it uses the constant named YEAR.
+      newAge = currentAge + (2050 - currentYear);
 
-      int currentYear = 2025;
-    
-      newAge = 20 + (2050 - 2025);
-
-      System.out.println("My Current Age is " + 20);
+      System.out.println("My Current Age is " + currentAge);
       // Edit this output statement so that is uses the constant named YEAR. 
-      System.out.println("I will be " + 45 + " in 2050.");
+      System.out.println("I will be " + newAge + " in 2050.");
 
       System.exit(0);
    }
