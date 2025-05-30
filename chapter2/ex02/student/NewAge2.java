@@ -16,7 +16,7 @@ public class NewAge2
 
       System.out.println("My Current Age is " + currentAge);
       // Edit this output statement so that is uses the constant named YEAR. 
-      System.out.println("I will be " + newAge + " in" + YEAR + ".");
+      System.out.println("I will be " + newAge + " in " +  YEAR  + ".");
 
       System.exit(0);
    }
