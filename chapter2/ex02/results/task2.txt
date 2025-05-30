@@ -4,4 +4,4 @@ Check: 1
 Test: Update the `newAge` calculation to use the constant `YEAR`.
 Reason: Unable to find '(YEAR - currentYear)' in the program.
 Error : str - AssertionError
-Timestamp: 2025-05-30 22:02:20.096196
+Timestamp: 2025-05-30 22:06:21.840921
