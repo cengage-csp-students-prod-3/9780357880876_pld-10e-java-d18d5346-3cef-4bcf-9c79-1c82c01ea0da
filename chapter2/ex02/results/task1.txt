@@ -1,6 +1,7 @@
 
-Status: PASSED!
+Status: FAILED!
 Check: 1
 Test: Declare a constant named `YEAR`.
-Reason: 'final int YEAR = 2050;' was found in the program output.None
-Timestamp: 2025-05-30 21:35:44.012213
+Reason: Unable to find 'final int YEAR = 2050;' in the program.
+Error : str - AssertionError
+Timestamp: 2025-05-30 21:57:12.577386
