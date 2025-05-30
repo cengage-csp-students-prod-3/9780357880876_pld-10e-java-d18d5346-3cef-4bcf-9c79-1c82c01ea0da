@@ -6,17 +6,17 @@ public class NewAge2
 {
    public static void main(String args[])
    {
-      int currentAge = 25;
+      int currentAge = 20;
       int newAge;
-      int currentYear = 2014;
+      int currentYear = 2025;
       // Declare a constant named YEAR and initialize it to 2050
-
+      final int YEAR = 2050;
       // Edit this statement so that it uses the constant named YEAR.
       newAge = currentAge + (2050 - currentYear);
 
       System.out.println("My Current Age is " + currentAge);
       // Edit this output statement so that is uses the constant named YEAR. 
-      System.out.println("I will be " + newAge + " in 2050.");
+      System.out.println("I will be " + newAge + " in" + 2050 + ".");
 
       System.exit(0);
    }
