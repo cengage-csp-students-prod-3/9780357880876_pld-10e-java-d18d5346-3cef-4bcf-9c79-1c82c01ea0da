@@ -7,16 +7,16 @@ public class Furniture
 		String itemName = "TV Stand";
 		double retailPrice = 325.00;
 		double wholesalePrice = 200.00;
-		double salePrice;
-		double profit;
-		double saleProfit;
+		double salePrice = retailPrice * 0.75;
+		double profit = retailPrice - wholesalePrice;
+		double saleProfit = salePrice - wholesalePrice;
 		
 		// Write your assignment statements here.		
 		
 		System.out.println("Item Name: " + itemName);
 		System.out.println("Retail Price: $" + retailPrice);
 		System.out.println("Wholesale Price: $" + wholesalePrice);
-		System.out.println("Profit: $" + profit);	
+		System.out.println("Profit: $" + profit);
 		System.out.println("Sale Price: $" + salePrice);
 		System.out.println("Sale Profit: $" + saleProfit);
 		
