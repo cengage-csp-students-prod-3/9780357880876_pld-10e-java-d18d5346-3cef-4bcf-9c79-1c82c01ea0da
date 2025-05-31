@@ -3,28 +3,28 @@ Status: PASSED!
 Check: 1
 Test: Calculate state withholding tax at 6.5 percent.
 Reason: The state withholding tax of $81.25 was found in the program's output.None
-Timestamp: 2025-05-31 22:43:49.677811
+Timestamp: 2025-05-31 22:52:17.575686
 
 Status: PASSED!
 Check: 2
 Test: Calculate federal withholding tax at 28.0.
 Reason: None
-Timestamp: 2025-05-31 22:43:51.082878
+Timestamp: 2025-05-31 22:52:18.908870
 
 Status: PASSED!
 Check: 3
 Test: Calculate state withholding tax at 6.5 percent.
 Reason: The state withholding tax of 299.577 (+/-0.01) was found in the program's output.None
-Timestamp: 2025-05-31 22:43:52.168401
+Timestamp: 2025-05-31 22:52:20.093203
 
 Status: PASSED!
 Check: 4
 Test: Calculate state withholding tax at 6.5 percent.
 Reason: The federal withholding tax of 1290.49 (+/-0.01) was found in the program's output.None
-Timestamp: 2025-05-31 22:43:53.260358
+Timestamp: 2025-05-31 22:52:21.205721
 
 Status: PASSED!
 Check: 5
 Test: Checking the program for hardcoded answers.
 Reason: None
-Timestamp: 2025-05-31 22:43:53.260621
+Timestamp: 2025-05-31 22:52:21.205976
