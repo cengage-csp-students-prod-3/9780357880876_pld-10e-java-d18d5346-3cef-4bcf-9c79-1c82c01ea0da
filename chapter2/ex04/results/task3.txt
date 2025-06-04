@@ -3,22 +3,22 @@ Status: PASSED!
 Check: 1
 Test: Calculate total withholding for a salary of $1250.00
 Reason: The total withholding of $431.25 (+/- {epsilon}) was found in the program's output.None
-Timestamp: 2025-06-04 20:12:25.246685
+Timestamp: 2025-06-04 20:14:10.115885
 
 Status: PASSED!
 Check: 2
 Test: Calculate total withholding for a salary of $1500.00
 Reason: The total withholding of $517.5 (+/- 0.01) was found in the program's output.None
-Timestamp: 2025-06-04 20:12:26.180365
+Timestamp: 2025-06-04 20:14:10.986513
 
 Status: PASSED!
 Check: 3
 Test: Calculate total withholding for a salary of $2000.00
 Reason: The total withholding of $690 (+/- 0.01) was found in the program's output.None
-Timestamp: 2025-06-04 20:12:27.141384
+Timestamp: 2025-06-04 20:14:11.883937
 
 Status: PASSED!
 Check: 4
 Test: Checking the program for hardcoded answers.
 Reason: None
-Timestamp: 2025-06-04 20:12:27.141625
+Timestamp: 2025-06-04 20:14:11.884171
