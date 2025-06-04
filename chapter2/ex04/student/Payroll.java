@@ -12,23 +12,18 @@ public class Payroll
 		double takeHomePay;
 
 		// Calculate state tax here.
-		stateTax = salary * 0.065;
 		System.out.println("State Tax: $" + stateTax);
 
 		// Calculate federal tax here. 
-		federalTax = salary * 0.28;
 		System.out.println("Federal Tax: $" + federalTax);
 
 		// Calculate dependant deduction here.
-		dependentDeduction = salary * 0.025 * numDependents;
 		System.out.println("Dependents: $" + dependentDeduction);
 		
       // Calculate total withholding here.
-	  totalWithholding = stateTax + federalTax + dependentDeduction;
       System.out.println("Total Withholdings: $" + totalWithholding);
 
 		// Calculate take home pay here.
-		takeHomePay = salary - totalWithholding;
 
 		System.out.println("Salary: $" + salary);
 		System.out.println("Take Home Pay: $" + takeHomePay);
