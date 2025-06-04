@@ -24,11 +24,11 @@ public class Payroll
 		System.out.println("Dependents: $" + dependentDeduction);
 		
       // Calculate total withholding here.
-	    totalWithholding = stateTax + federalTax + dependentDeduction;
+	    totalWithholding = stateTax + federalTax;
       System.out.println("Total Withholdings: $" + totalWithholding);
 
 		// Calculate take home pay here.
-		takeHomePay = salary - totalWithholding;
+		takeHomePay = salary - totalWithholding + dependentDeduction;
 
 		System.out.println("Salary: $" + salary);
 		System.out.println("Take Home Pay: $" + takeHomePay);
