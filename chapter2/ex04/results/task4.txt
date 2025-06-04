@@ -1,48 +1,24 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Calculate take-home pay for a salary of $1250.00
-Reason: Unable to find '['881.25']' in the program's output.
-State Tax: $81.25
-Federal Tax: $350.00000000000006
-Dependents: $62.5
-Total Withholdings: $493.75000000000006
-Salary: $1250.0
-Take Home Pay: $756.25
-.
-Error : AssertionError - Unable to find a number close enough to 881.25 (+/-0.01) in the program's output.
-Timestamp: 2025-06-04 20:08:58.814937
+Reason: The take-home pay of $881.25 (+/- {epsilon}) was found in the program's output.None
+Timestamp: 2025-06-04 20:12:28.058612
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Calculate take-home pay for a salary of $1500.00
-Reason: Unable to find '1057.5' in the program's output.
-State Tax: $97.5
-Federal Tax: $420.00000000000006
-Dependents: $75.0
-Total Withholdings: $592.5
-Salary: $1500.0
-Take Home Pay: $907.5
+Reason: The take-home pay of $1057.5 (+/- 0.01) was found in the program's output.None
+Timestamp: 2025-06-04 20:12:28.942646
 
-Error : AssertionError - Unable to find a number close enough to 1057.5 (+/-0.01) in the program's output.
-Timestamp: 2025-06-04 20:08:59.715321
-
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: Calculate take-home pay for a salary of $2000.00
-Reason: Unable to find '1410.0' in the program's output.
-State Tax: $130.0
-Federal Tax: $560.0
-Dependents: $100.0
-Total Withholdings: $790.0
-Salary: $2000.0
-Take Home Pay: $1210.0
-
-Error : AssertionError - Unable to find a number close enough to 1410.0 (+/-0.01) in the program's output.
-Timestamp: 2025-06-04 20:09:00.610731
+Reason: The take-home pay of 1410.0 (+/- 0.01) was found in the program's output.None
+Timestamp: 2025-06-04 20:12:29.816970
 
 Status: PASSED!
 Check: 4
 Test: Checking the program for hardcoded answers.
 Reason: None
-Timestamp: 2025-06-04 20:09:00.611095
+Timestamp: 2025-06-04 20:12:29.817240
