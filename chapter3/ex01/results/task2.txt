@@ -3,10 +3,10 @@ Status: PASSED!
 Check: 1
 Test: Declare an integer variable named `testScore.
 Reason: 'int testScore;' was found in the program output.None
-Timestamp: 2025-06-05 19:31:02.596329
+Timestamp: 2025-06-05 19:33:08.815939
 
 Status: PASSED!
 Check: 2
 Test: Declare an integer variable named `classRank.
 Reason: 'int classRank;' was found in the program output.None
-Timestamp: 2025-06-05 19:31:02.596613
+Timestamp: 2025-06-05 19:33:08.816230

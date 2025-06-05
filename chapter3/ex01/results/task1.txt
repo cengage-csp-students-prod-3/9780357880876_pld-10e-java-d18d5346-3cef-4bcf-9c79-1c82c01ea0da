@@ -4,11 +4,10 @@ Check: 1
 Test: Declare the `String` variable `testScoreString`.
 Reason: Unable to find 'String testScoreString;' in the program.
 Error : str - AssertionError
-Timestamp: 2025-06-05 19:31:02.595574
+Timestamp: 2025-06-05 19:33:08.815248
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Declare the `String` variable `classRankString`.
-Reason: Unable to find 'String classRankString;' in the program.
-Error : str - AssertionError
-Timestamp: 2025-06-05 19:31:02.596035
+Reason: 'String classRankString;' was found in the program output.None
+Timestamp: 2025-06-05 19:33:08.815640
