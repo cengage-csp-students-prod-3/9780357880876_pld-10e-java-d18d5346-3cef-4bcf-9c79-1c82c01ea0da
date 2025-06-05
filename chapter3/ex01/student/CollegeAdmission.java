@@ -9,21 +9,15 @@ public class CollegeAdmission
 {
 	public static void main(String args[])
    { 
-  		// Declare variables 
-      String testScoreString, String classRankString;
-      int testScore, classRank;  
+  		// Declare variables   
       Scanner scanner = new Scanner(System.in);
 
 
 
      
      	// Get input and convert to correct data type    
-     System.out.print("Enter your test score: ");
-     testScoreString = input.nextline();
-     System.out.print("Enter your class rank: ");
-     classRankString = input.nextLine();
-     int testScore = Integer.parseInt(testScoreString);
-     int classRank = Integer.parseInt(classRankString);
+
+
 
 
 
