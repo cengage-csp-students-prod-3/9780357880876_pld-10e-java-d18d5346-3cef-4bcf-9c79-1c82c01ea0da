@@ -11,13 +11,18 @@ public class CollegeAdmission
    { 
   		// Declare variables   
       Scanner scanner = new Scanner(System.in);
-
-
-
+      String testScoreString;
+      String classRankString;
+      nextLine();
+      System.out.print("Enter your test score: ");
+      testScoreString = input.nextLine();
+      int testScore = Integer.parseInt(testScoreString);
+      System.out.print("Enter your class rank: ");
+      classRankString = input.nextLine();
+      int classRank = Integer.parseInt(testScoreString);
      
      	// Get input and convert to correct data type    
-
-
+    
 
 
 
