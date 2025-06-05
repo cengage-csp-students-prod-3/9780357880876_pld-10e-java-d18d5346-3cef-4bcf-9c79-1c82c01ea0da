@@ -5,6 +5,8 @@
 */  
 
 import java.util.Scanner;
+
+import javax.swing.JOptionPane;
 public class CollegeAdmission
 {
 	public static void main(String args[])
@@ -20,7 +22,7 @@ public class CollegeAdmission
       testScoreString = JOption.pane.showInputDialog("Enter student's test score: ");
       testScore = Integer.parseInt(testScoreString);
       classRankString = JOption.pane.showInputDialog("Enter student's class rank: ");
-      ClassRank = Integer.parseInt(classRankString);
+      classRank = Integer.parseInt(classRankString);
       // Test using admission requirements and print Accept or Reject 
 		if( testScore >= 90 )
 		{
