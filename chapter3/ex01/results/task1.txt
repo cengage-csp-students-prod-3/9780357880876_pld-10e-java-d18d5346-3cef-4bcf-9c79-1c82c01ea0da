@@ -1,0 +1,14 @@
+
+Status: FAILED!
+Check: 1
+Test: Declare the `String` variable `testScoreString`.
+Reason: Unable to find 'String testScoreString;' in the program.
+Error : str - AssertionError
+Timestamp: 2025-06-05 19:31:02.595574
+
+Status: FAILED!
+Check: 2
+Test: Declare the `String` variable `classRankString`.
+Reason: Unable to find 'String classRankString;' in the program.
+Error : str - AssertionError
+Timestamp: 2025-06-05 19:31:02.596035
