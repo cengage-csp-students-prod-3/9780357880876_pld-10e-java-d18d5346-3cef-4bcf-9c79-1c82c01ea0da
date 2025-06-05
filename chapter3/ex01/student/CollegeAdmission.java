@@ -19,10 +19,11 @@ public class CollegeAdmission
       int classRank;
 
       // Get input and convert to correct data type    
-      testScoreString = JOption.pane.showInputDialog("Enter student's test score: ");
+      testScoreString = JOptionPane.showInputDialog("Enter student's test score: ");
       testScore = Integer.parseInt(testScoreString);
-      classRankString = JOption.pane.showInputDialog("Enter student's class rank: ");
+      classRankString = JOptionPane.showInputDialog("Enter student's class rank: ");
       classRank = Integer.parseInt(classRankString);
+      
       // Test using admission requirements and print Accept or Reject 
 		if( testScore >= 90 )
 		{
