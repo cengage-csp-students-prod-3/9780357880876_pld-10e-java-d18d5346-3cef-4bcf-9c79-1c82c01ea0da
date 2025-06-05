@@ -10,7 +10,7 @@ public class CollegeAdmission
 	public static void main(String args[])
    { 
   		// Declare variables 
-      String testScoreString, classRankString;
+      String testScoreString, String classRankString;
       int testScore, classRank;  
       Scanner scanner = new Scanner(System.in);
 
