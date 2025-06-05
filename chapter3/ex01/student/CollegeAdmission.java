@@ -11,17 +11,17 @@ public class CollegeAdmission
    { 
   		// Declare variables   
       Scanner scanner = new Scanner(System.in);
+      String testScoreString;
+      int testScore;
+      String classRankString;
+      int classRank;
 
-
-
-     
-     	// Get input and convert to correct data type    
-
-
-
-
-
-     	// Test using admission requirements and print Accept or Reject 
+      // Get input and convert to correct data type    
+      testScoreString = JOption.pane.showInputDialog("Enter student's test score: ");
+      testScore = Integer.parseInt(testScoreString);
+      classRankString = JOption.pane.showInputDialog("Enter student's class rank: ");
+      ClassRank = Integer.parseInt(classRankString);
+      // Test using admission requirements and print Accept or Reject 
 		if( testScore >= 90 )
 		{
 			if( classRank >= 25)
