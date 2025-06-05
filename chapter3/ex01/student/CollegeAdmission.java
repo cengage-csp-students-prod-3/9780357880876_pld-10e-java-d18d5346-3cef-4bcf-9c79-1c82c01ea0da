@@ -11,43 +11,53 @@ public class CollegeAdmission
    { 
   		// Declare variables   
       Scanner scanner = new Scanner(System.in);
-
-
+      String testScoreString;
+      String classRankString;
+      
 
      
      	// Get input and convert to correct data type    
-
+      nextLine();
+      System.out.print("Enter your test score: ");
+      testScoreString = input.nextLine();
+      System.out.print("Enter your class rank: ");
+      classRankString = input.nextline();
+      int testScore = Integer.parseInt(testScoreString);
+      int classRank = Integer.parseInt(classRankString);
 
 
 
 
      	// Test using admission requirements and print Accept or Reject 
 		if( testScore >= 90 )
-		{
 			if( classRank >= 25)
 			{
 			   System.out.println("Accept");
 			}
 			else
-	   		System.out.println("Reject"); 
-		}
-     	else 
-        {
-           if (testScore >= 80) {
-              if (classRank >= 50)
-                 System.out.println("Accept");
-              else
-                 System.out.println("Reject");
-           } else {
-              if (testScore >= 70) {
-                 if (classRank >= 75)
-                    System.out.println("Accept");
-                 else
-                    System.out.println("Reject");
-              } else
-                 System.out.println("Reject");
-           }
-        }
-        scanner.close();
-   } // End of main() method
-} // End of CollegeAdmission class
+            if (testscore >= 80)
+               if (classRank >= 50)
+               {
+                  System.out.println("Accept");
+               }
+               else
+                     if (testScore >= 70)
+                        if (classRank >= 75)
+                        {
+                           System.out.println("Accept");
+                        }
+                           else
+                              if (testScore >= 60)
+                                 if (classRank >= 90)
+                                 {
+                                    System.out.println("Accept");
+                                 }
+                                 else
+                                 {
+                                    System.out.println("Reject");
+                                 }
+                                 input.close();
+                           }
+                  }
+    // End of main() method
+ // End of CollegeAdmission class
