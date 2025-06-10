@@ -23,10 +23,14 @@ public class BadDate
      // This is the work of the housekeeping() method
      // Get the year, then the month, then the day
      
-     
+     yearString = JOptionPane.showInputDialog("Enter year: ");
+     monthString = JOptionPane.showInputDialog("Enter month: ");
+     dayString = JOptionPane.showInputDialog("Enter day: ");
 
      // Convert Strings to integers
-     
+     year = Integer.parseInt(yearString);
+     month = Integer.parseInt(monthString);
+     day = Integer.parseInt(dayString);
 
      // This is the work of the detailLoop() method
      // Check to be sure date is valid
@@ -44,12 +48,13 @@ public class BadDate
      if( validDate == true )
      { 
 	     // Output statement 
+        System.out.println(month + "/" + day + "/" + year + " is a valid date");
 
      }
      else
      {
 	     // Output statement 
-	
+	     System.out.println(month + "/" + day + "/" + year + " is a invalid date");
      }
      
    } // end of main() method
