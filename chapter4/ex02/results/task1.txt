@@ -1,168 +1,18 @@
 
-Status: FAILED!
-Reason: Unable to run tempLargeSmall.java
-Error: /home/runner/work/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/java/chapter4/ex02/tempLargeSmall.java:11: error: cannot find symbol
-		int big_one = small_one;
-		              ^
-  symbol:   variable small_one
-  location: class tempLargeSmall
-/home/runner/work/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/java/chapter4/ex02/tempLargeSmall.java:12: error: cannot find symbol
-		int big_two = small_two;
-		              ^
-  symbol:   variable small_two
-  location: class tempLargeSmall
-/home/runner/work/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/java/chapter4/ex02/tempLargeSmall.java:21: error: cannot find symbol
-				small_one = secondNumber;
-				^
-  symbol:   variable small_one
-  location: class tempLargeSmall
-/home/runner/work/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/java/chapter4/ex02/tempLargeSmall.java:26: error: cannot find symbol
-				small_one = firstNumber;
-				^
-  symbol:   variable small_one
-  location: class tempLargeSmall
-/home/runner/work/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/java/chapter4/ex02/tempLargeSmall.java:31: error: cannot find symbol
-				small_two = thirdNumber;
-				^
-  symbol:   variable small_two
-  location: class tempLargeSmall
-/home/runner/work/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/java/chapter4/ex02/tempLargeSmall.java:36: error: cannot find symbol
-				small_two = secondNumber;
-				^
-  symbol:   variable small_two
-  location: class tempLargeSmall
-/home/runner/work/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/java/chapter4/ex02/tempLargeSmall.java:42: error: cannot find symbol
-		if(small_one < small_two)
-		   ^
-  symbol:   variable small_one
-  location: class tempLargeSmall
-/home/runner/work/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/java/chapter4/ex02/tempLargeSmall.java:42: error: cannot find symbol
-		if(small_one < small_two)
-		               ^
-  symbol:   variable small_two
-  location: class tempLargeSmall
-/home/runner/work/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/java/chapter4/ex02/tempLargeSmall.java:43: error: cannot find symbol
-		        smallest = small_one;
-		                   ^
-  symbol:   variable small_one
-  location: class tempLargeSmall
-/home/runner/work/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/java/chapter4/ex02/tempLargeSmall.java:45: error: cannot find symbol
-		        smallest = small_two;
-		                   ^
-  symbol:   variable small_two
-  location: class tempLargeSmall
-10 errors
+Status: PASSED!
+Check: 1
+Test: The program displays the largest and smallest values in the set: '-50, 53, 78' 
+Reason: None
+Timestamp: 2025-06-15 00:25:09.710361
 
-Timestamp: 2025-06-15 00:17:40.338926
+Status: PASSED!
+Check: 2
+Test: The program displays the largest and smallest values in the set: '-7, 12, -3' 
+Reason: None
+Timestamp: 2025-06-15 00:25:10.905939
 
-Status: FAILED!
-Reason: Unable to run tempLargeSmall.java
-Error: /home/runner/work/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/java/chapter4/ex02/tempLargeSmall.java:11: error: cannot find symbol
-		int big_one = small_one;
-		              ^
-  symbol:   variable small_one
-  location: class tempLargeSmall
-/home/runner/work/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/java/chapter4/ex02/tempLargeSmall.java:12: error: cannot find symbol
-		int big_two = small_two;
-		              ^
-  symbol:   variable small_two
-  location: class tempLargeSmall
-/home/runner/work/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/java/chapter4/ex02/tempLargeSmall.java:21: error: cannot find symbol
-				small_one = secondNumber;
-				^
-  symbol:   variable small_one
-  location: class tempLargeSmall
-/home/runner/work/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/java/chapter4/ex02/tempLargeSmall.java:26: error: cannot find symbol
-				small_one = firstNumber;
-				^
-  symbol:   variable small_one
-  location: class tempLargeSmall
-/home/runner/work/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/java/chapter4/ex02/tempLargeSmall.java:31: error: cannot find symbol
-				small_two = thirdNumber;
-				^
-  symbol:   variable small_two
-  location: class tempLargeSmall
-/home/runner/work/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/java/chapter4/ex02/tempLargeSmall.java:36: error: cannot find symbol
-				small_two = secondNumber;
-				^
-  symbol:   variable small_two
-  location: class tempLargeSmall
-/home/runner/work/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/java/chapter4/ex02/tempLargeSmall.java:42: error: cannot find symbol
-		if(small_one < small_two)
-		   ^
-  symbol:   variable small_one
-  location: class tempLargeSmall
-/home/runner/work/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/java/chapter4/ex02/tempLargeSmall.java:42: error: cannot find symbol
-		if(small_one < small_two)
-		               ^
-  symbol:   variable small_two
-  location: class tempLargeSmall
-/home/runner/work/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/java/chapter4/ex02/tempLargeSmall.java:43: error: cannot find symbol
-		        smallest = small_one;
-		                   ^
-  symbol:   variable small_one
-  location: class tempLargeSmall
-/home/runner/work/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/java/chapter4/ex02/tempLargeSmall.java:45: error: cannot find symbol
-		        smallest = small_two;
-		                   ^
-  symbol:   variable small_two
-  location: class tempLargeSmall
-10 errors
-
-Timestamp: 2025-06-15 00:17:41.589962
-
-Status: FAILED!
-Reason: Unable to run tempLargeSmall.java
-Error: /home/runner/work/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/java/chapter4/ex02/tempLargeSmall.java:11: error: cannot find symbol
-		int big_one = small_one;
-		              ^
-  symbol:   variable small_one
-  location: class tempLargeSmall
-/home/runner/work/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/java/chapter4/ex02/tempLargeSmall.java:12: error: cannot find symbol
-		int big_two = small_two;
-		              ^
-  symbol:   variable small_two
-  location: class tempLargeSmall
-/home/runner/work/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/java/chapter4/ex02/tempLargeSmall.java:21: error: cannot find symbol
-				small_one = secondNumber;
-				^
-  symbol:   variable small_one
-  location: class tempLargeSmall
-/home/runner/work/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/java/chapter4/ex02/tempLargeSmall.java:26: error: cannot find symbol
-				small_one = firstNumber;
-				^
-  symbol:   variable small_one
-  location: class tempLargeSmall
-/home/runner/work/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/java/chapter4/ex02/tempLargeSmall.java:31: error: cannot find symbol
-				small_two = thirdNumber;
-				^
-  symbol:   variable small_two
-  location: class tempLargeSmall
-/home/runner/work/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/java/chapter4/ex02/tempLargeSmall.java:36: error: cannot find symbol
-				small_two = secondNumber;
-				^
-  symbol:   variable small_two
-  location: class tempLargeSmall
-/home/runner/work/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/java/chapter4/ex02/tempLargeSmall.java:42: error: cannot find symbol
-		if(small_one < small_two)
-		   ^
-  symbol:   variable small_one
-  location: class tempLargeSmall
-/home/runner/work/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/java/chapter4/ex02/tempLargeSmall.java:42: error: cannot find symbol
-		if(small_one < small_two)
-		               ^
-  symbol:   variable small_two
-  location: class tempLargeSmall
-/home/runner/work/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/java/chapter4/ex02/tempLargeSmall.java:43: error: cannot find symbol
-		        smallest = small_one;
-		                   ^
-  symbol:   variable small_one
-  location: class tempLargeSmall
-/home/runner/work/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/java/chapter4/ex02/tempLargeSmall.java:45: error: cannot find symbol
-		        smallest = small_two;
-		                   ^
-  symbol:   variable small_two
-  location: class tempLargeSmall
-10 errors
-
-Timestamp: 2025-06-15 00:17:42.572371
+Status: PASSED!
+Check: 3
+Test: The program displays the largest and smallest values in the set: '17, -22, 8' 
+Reason: None
+Timestamp: 2025-06-15 00:25:11.933231
