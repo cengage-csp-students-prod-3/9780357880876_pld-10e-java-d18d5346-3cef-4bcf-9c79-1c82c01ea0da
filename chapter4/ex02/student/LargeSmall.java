@@ -8,8 +8,8 @@ public class LargeSmall
 		// Declare and initialize variables here.
 		int largest;		// Largest of the three values.
 		int smallest;		// Smallest of the three values.
-		int big_one = small_one;
-		int big_two = small_two;
+		int big_one, small_one;
+		int big_two, small_two;
 		int firstNumber = -50;
 		int secondNumber = 53;
 		int thirdNumber = 78;
@@ -44,8 +44,8 @@ public class LargeSmall
 		else 
 		        smallest = small_two;
 		
-		
-				System.out.println("The largest value is " + largest);
+		// Output largest and smallest number.
+		System.out.println("The largest value is " + largest);
 		System.out.println("The smallest value is " + smallest);
 	}
 } 
