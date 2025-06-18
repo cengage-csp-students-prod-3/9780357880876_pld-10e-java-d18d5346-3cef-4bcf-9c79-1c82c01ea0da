@@ -16,6 +16,17 @@ public class Airline
 		passengerAge = Integer.parseInt(ageString);
 		
 		// Test to see if this customer is eligible for a 25% discount. 
-				
-	}
+		if(passengerAge <= 6 || passengerAge >= 65)
+		{
+			System.out.println("Passenger Name: " + passengerName);
+            System.out.println("Passenger Age: " + passengerAge);
+			System.out.println("This passenger is eligible for a 25% discount.");
+		}
+		else	
+	    {
+            System.out.println("Passenger Name: " + passengerName);
+            System.out.println("Passenger Age: " + passengerAge);
+			System.out.println("This passenger is not eligible for a 25% discount.");
+		}
+	    }
 }
