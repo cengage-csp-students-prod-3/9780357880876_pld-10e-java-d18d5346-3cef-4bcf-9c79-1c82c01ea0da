@@ -29,9 +29,24 @@ public class EmployeeBonus
 		numShifts = Double.parseDouble(shiftString);
 		numTransactions = Double.parseDouble(transactString);
 		dollarValue = Double.parseDouble(dollarString);
+		score = (dollarValue / numTransactions) / numShifts;
 		
 		// Write your code here
-		
+		if(score < 200)
+		{
+                if(score < 70)
+				{
+                        if(score <= 30)
+						bonus = BONUS_1;
+						else
+						bonus = BONUS_2;
+				}
+				else 
+				        bonus = BONUS_3;
+		}
+		else 
+		    bonus = BONUS_4;
+
 		// Output.  
 		System.out.println("Employee Name: " + employeeName);
 		System.out.println("Employee Bonus: $" + bonus);
