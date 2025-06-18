@@ -31,7 +31,18 @@ public class EmployeeBonus2
 		employeeRating = Integer.parseInt(ratingString);
 		
 		// Use switch statement here to calculate bonus based on rating.
-		
+		switch(employeeRating)
+		{
+			    case RATING_1: employeeBonus = employeeSalary * BONUS_1;
+				        break;
+				case RATING_2: employeeBonus = employeeSalary * BONUS_2;
+				        break;
+				case RATING_3: employeeBonus = employeeSalary * BONUS_3;
+				        break;
+				default: employeeBonus = NO_BONUS;
+				
+		}
+
 		// Output.  
 		System.out.println("Employee Name: " + employeeName);
 		System.out.println("Employee Salary: $" + employeeSalary);
