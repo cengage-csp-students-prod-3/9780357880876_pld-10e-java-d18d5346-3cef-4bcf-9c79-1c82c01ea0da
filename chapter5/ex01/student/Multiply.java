@@ -10,21 +10,23 @@ public class Multiply
 		String head1 = "Number: ";
 		String head2 = "Multiplied by 2: ";
 		String head3 = "Multiplied by 10:  ";				
-		int numberCounter;  // Numbers 0 through 10.
 		int byTen;  // Stores the number multiplied by 10.
 		int byTwo;  // Stores the number multiplied by 2.
-		final int MAX_NUM = 10;  // Constant used to control loop.
+		final int NUM_LOOPS = 10;  // Constant used to control loop.
 
 		System.out.println("0 through 10 multiplied by 2 and by 10" + "\n");
 
-		// Initialize loop control variable.
-		// Write your counter controlled while loop here
-		// Multiply by 2
-		// Multiply by 10
-		System.out.println(head1 + numberCounter);
-		System.out.println(head2 + byTwo);
-		System.out.println(head3 + byTen);
-		// Next number.
-
-	} 
+		int numberCounter = 0; // Initialize loop control variable.
+		while(numberCounter <= NUM_LOOPS) // Write your counter controlled while loop here
+		{
+			byTen = numberCounter * 10; // Multiply by 10
+			byTwo = numberCounter * 2;// Multiply by 2
+		    System.out.println(head1 + numberCounter);
+		    System.out.println(head2 + byTwo);
+		    System.out.println(head3 + byTen);
+	        numberCounter++;  // Next number.
+		}  // End of while loop.
+	
+		System.exit(0);
+	}
 }  // End of Multiply class.
