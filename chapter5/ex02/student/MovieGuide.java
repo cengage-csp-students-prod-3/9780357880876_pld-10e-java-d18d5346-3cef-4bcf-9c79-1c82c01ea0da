@@ -16,10 +16,20 @@ public class MovieGuide
 		double totalStars = 0;  // total of star ratings.
 		int numPatrons = 0;  // keep track of number of patrons			
 	
-		// Get input.				
-		// Convert to double.		
-		// Write while loop here		
+		// Get input.	
+		numStarsString = JOptionPane.showInputDialog("Enter rating for featured movie: ");			
+		// Convert to double.
+		numStars = Double.parseDouble(numStarsString);		
+		// Write while loop here
+		while (numStars >= 0)
+		{
+			totalStars += numStars;
+			numPatrons++;
+			numStarsString = JOptionPane.showInputDialog("Enter rating for feature movie: ");
+			numStars = Integer.parseInt(numStarsString);
+		}		
 		// Calculate average star rating
+		averageStars = totalStars / numPatrons;
 		
 		System.out.println("Average Star Value: " + averageStars); 
 	} 
