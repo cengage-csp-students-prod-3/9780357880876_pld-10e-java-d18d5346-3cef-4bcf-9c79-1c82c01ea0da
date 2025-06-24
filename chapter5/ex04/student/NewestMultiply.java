@@ -18,5 +18,19 @@ public class NewestMultiply
 		System.out.println("0 through 10 multiplied by 2 and by 10" + "\n");
 
 		// Write do while loop
+	    numberCounter = 0;
+		do
+		{
+			    byTen = numberCounter * 10;
+				byTwo = numberCounter * 2;
+
+				System.out.println(head1 + numberCounter);
+				System.out.println(head2 + byTwo);
+				System.out.println(head3 + byTen);
+
+				numberCounter++;
+
+		}while(numberCounter <= NUM_LOOPS);
+
 	} 
 } // End of NewestMultiply class.
