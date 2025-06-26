@@ -1,0 +1,7 @@
+
+Status: FAILED!
+Check: 1
+Test: Implement a `while` loop.
+Reason: Unable to find '`while`' in the program.
+Error : str - AssertionError
+Timestamp: 2025-06-26 05:19:46.349567
