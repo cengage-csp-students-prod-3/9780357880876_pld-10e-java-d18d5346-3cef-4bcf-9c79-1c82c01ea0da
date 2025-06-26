@@ -7,7 +7,7 @@ public class BattingAverage
 		final int MAX_AVERAGES = 8;
 
 		// Declare array here.
-		double averages[] = new double [MAX_AVERAGES];
+		double averages[] = new double[MAX_AVERAGES];
 		
 		// Use this variable to store the batting average input by user.
 		double battingAverage;
@@ -45,9 +45,10 @@ public class BattingAverage
 			if(averages[loopIndex] > max)
 			    max = averages[loopIndex];
 			// Also accumulate a total of all batting averages.
-			total =+ averages[loopIndex];
+			total += averages[loopIndex];
 		}
-		// Calculate the average of the 8 averages.
+
+		// Calculate the average of the 10 averages.
 		average = total / MAX_AVERAGES;
 		
         // Print the averages stored in the averages array.
@@ -60,6 +61,5 @@ public class BattingAverage
 		System.out.println("Maximum batting averages is " + max);
 		System.out.println("Average batting averages is " + average); 
 
-		
-	}
+    }
 }
