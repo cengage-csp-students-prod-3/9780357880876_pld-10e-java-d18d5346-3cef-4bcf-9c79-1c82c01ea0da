@@ -31,8 +31,8 @@ public class GuessNumber
 		    // Validate input.	
 		    while(userNumber < 1 || userNumber > 10)
 		    {
-			  stringNumber = JOptionPane.showInputDialog("Number must be in the range of 1 to 10: Please try again: ");
-			  userNumber = Integer.parseInt(stringNumber);
+			   stringNumber = JOptionPane.showInputDialog("Number must be in the range of 1 to 10: Please try again: ");
+			   userNumber = Integer.parseInt(stringNumber);
 		    }	
             // Test to see if the user guessed correctly.
 		    if(userNumber == number)
