@@ -13,7 +13,7 @@ public class LeftOrRight
 		int rightTotal = 0;  // Number of right-handed students.
 		int leftTotal = 0;  // Number of left-handed students.
 		
-		leftOrRight = JOptionPane.showInputDialog("Enter L if you are left-handed, R if you are right-handed or X to quit.");
+		leftOrRight = JOptionPane.showInputDialog("Enter an L if you are left-handed, R if you are right-handed or X to quit.");
 
 		while (leftOrRight.compareTo("X") != 0)
 		{
@@ -21,11 +21,11 @@ public class LeftOrRight
 				leftTotal++;
 			else
 				rightTotal++;
-			leftOrRight = JOptionPane.showInputDialog("Enter L if you are left-handed, R if you are right-handed or X to quit.");
+			leftOrRight = JOptionPane.showInputDialog("Enter an L if you are left-handed, R if you are right-handed or X to quit.");
         }
         // Output number of left or right-handed students.	
 		System.out.println("Number of left-handed students: " + leftTotal);
 		System.out.println("Number of right-handed students: " + rightTotal); 
-		
+
 	} 
 } // End of LeftOrRight class. 
