@@ -18,16 +18,21 @@ public class GuessNumber
 		// Prime the loop.
 		keepGoing = JOptionPane.showInputDialog("Do you want to guess a number? Enter Y or N");
       // Validate input.	
-		
+	    while(keepGoing.compareTo("Y") != 0 && keepGoing.compareTo("N") != 0)
+		        keepGoing = JOptionPane.showInputDialog("Invalid Response." + " Please type Y or N.");
 		// Enter loop if they want to play.
 		while(keepGoing.compareTo("Y") == 0)
 		{
 			// Get user's guess.
 			stringNumber = JOptionPane.showInputDialog("I'm thinking of a number. .\n Try to guess by entering a number between 1 and 10");
 			userNumber = Integer.parseInt(stringNumber); 
-			// Validate input.		
-
-			// Test to see if the user guessed correctly.
+			// Validate input.	
+			while(userNumber < 1 || userNumber > 10)
+			{
+				stringNumber = JOptionPane.showInputDialog("Number must be in the range of 1 to 10: Please try again: ");
+				userNumber = Integer.parseInt(stringNumber);
+			}	
+            // Test to see if the user guessed correctly.
 			if(userNumber == number)
 			{
 				keepGoing = "N"; 
@@ -36,7 +41,9 @@ public class GuessNumber
 			else
 			{
 				keepGoing = JOptionPane.showInputDialog("That's not correct. Do you want to guess again? Enter Y or N");
-				// Validate input.				
+				// Validate input.
+				while(keepGoing.compareTo("Y") != 0 && keepGoing.compareTo("N") != 0)
+				    keepGoing = JOptionPane.showInputDialog("Invalid Response." + " Please type Y or N.");				
 			}
 	
 		} // End of while loop.
