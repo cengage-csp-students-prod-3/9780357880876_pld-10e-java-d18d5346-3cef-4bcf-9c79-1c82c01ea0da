@@ -12,9 +12,10 @@ public class Flowers
 		// Declare variables here
 		String flowerName = "";
 		String sunOrShade = "";
+		String fileName = "flowers.dat";
 		
 		// Open input file.
-		FileReader fr = new FileReader(fileName:"flowers.dat");
+		FileReader fr = new FileReader(fileName,"flowers.dat");
 		
 		// Create BufferedReader object.
 		BufferedReader br = new BufferedReader(fr);
