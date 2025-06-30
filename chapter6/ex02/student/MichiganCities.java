@@ -32,5 +32,6 @@ public class MichiganCities
 		        System.out.println("Not a city in Michigan.");
 		else
 		System.out.println("City found.");
+		
 	} 
 } 
