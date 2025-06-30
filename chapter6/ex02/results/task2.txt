@@ -1,28 +1,24 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
-Test: 
-Reason: 
-Error : str - There was an issue compiling the java files.
-Timestamp: 2025-06-30 21:18:58.411176
+Test: Acme
+Reason: None
+Timestamp: 2025-06-30 21:19:56.276155
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
-Test: 
-Reason: 
-Error : str - There was an issue compiling the java files.
-Timestamp: 2025-06-30 21:18:58.411349
+Test: Coloma
+Reason: None
+Timestamp: 2025-06-30 21:19:58.343278
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
-Test: 
-Reason: 
-Error : str - There was an issue compiling the java files.
-Timestamp: 2025-06-30 21:18:58.411431
+Test: Asheville
+Reason: None
+Timestamp: 2025-06-30 21:20:00.605731
 
-Status: FAILED!
+Status: PASSED!
 Check: 4
-Test: 
-Reason: 
-Error : str - There was an issue compiling the java files.
-Timestamp: 2025-06-30 21:18:58.411496
+Test: New York
+Reason: None
+Timestamp: 2025-06-30 21:20:02.966497
