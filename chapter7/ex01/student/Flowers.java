@@ -10,23 +10,17 @@ public class Flowers
 	public static void main(String args[]) throws Exception
 	{
 		// Declare variables here
-		String flowerName = "";
-		String sunOrShade = "";
-		String fileName = "flowers.dat";
 		
 		// Open input file.
-		FileReader fr = new FileReader(fileName,"flowers.dat");
 		
 		// Create BufferedReader object.
-		BufferedReader br = new BufferedReader(fr);
 		
+	
 		// Write while loop that reads records from file.
-		while((flowerName = br.readLine()) != null)
-		{
-                sunOrShade = br.readLine();
-		// Print flower name and the words sun or shade.
-		            System.out.println(flowerName + " is grown in the " + sunOrShade);	
-		}
+		
+      // Print flower name and the words sun or shade.
+			
+
 		br.close(); 	
 	} 
 } 
