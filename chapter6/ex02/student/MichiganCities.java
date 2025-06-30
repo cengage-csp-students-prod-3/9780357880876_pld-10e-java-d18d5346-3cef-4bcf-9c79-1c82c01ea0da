@@ -22,7 +22,7 @@ public class MichiganCities
 		{
                 // Write your test statement here to see if there is 
 		        // a match. Set the flag to true if city is found. 	
-			    if(incity.equals(citiesInMichigan[x]))
+			    if(inCity.equals(citiesInMichigan[x]))
 				        foundIt = true;
         } 	
 		
@@ -32,6 +32,6 @@ public class MichiganCities
 		        System.out.println("Not a city in Michigan.");
 		else
 		System.out.println("City found.");
-		
+
 	} 
 } 
