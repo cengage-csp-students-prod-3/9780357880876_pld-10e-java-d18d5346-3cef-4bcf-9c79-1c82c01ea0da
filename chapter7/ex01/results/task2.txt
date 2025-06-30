@@ -3,24 +3,88 @@ Status: PASSED!
 Check: 1
 Test: Write `while` loop to read input until EOF.
 Reason: '`while` loop' was found in the program output.None
-Timestamp: 2025-06-30 19:47:20.084213
+Timestamp: 2025-06-30 20:48:54.593145
 
-Status: FAILED!
-Reason: Unable to run Flowers.java
-Error: /home/runner/work/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/9780357880876_pld-10e-java-d18d5346-3cef-4bcf-9c79-1c82c01ea0da/java/chapter7/ex01/Flowers.java:18: error: no suitable constructor found for FileReader(String,String)
-		FileReader fr = new FileReader(fileName,"flowers.dat");
-		                ^
-    constructor FileReader.FileReader(String,Charset) is not applicable
-      (argument mismatch; String cannot be converted to Charset)
-    constructor FileReader.FileReader(File,Charset) is not applicable
-      (argument mismatch; String cannot be converted to File)
-Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-1 error
+Status: PASSED!
+Check: 2
+Test: Print the name of each flower and where it can be grown.
+Reason: None
+Timestamp: 2025-06-30 20:48:56.208288
 
-Timestamp: 2025-06-30 19:47:23.359038
+Status: PASSED!
+Check: 2
+Test: Print the name of each flower and where it can be grown.
+Reason: None
+Timestamp: 2025-06-30 20:48:56.897865
+
+Status: PASSED!
+Check: 2
+Test: Print the name of each flower and where it can be grown.
+Reason: None
+Timestamp: 2025-06-30 20:48:57.562989
+
+Status: PASSED!
+Check: 2
+Test: Print the name of each flower and where it can be grown.
+Reason: None
+Timestamp: 2025-06-30 20:48:58.250953
+
+Status: PASSED!
+Check: 2
+Test: Print the name of each flower and where it can be grown.
+Reason: None
+Timestamp: 2025-06-30 20:48:58.944394
+
+Status: PASSED!
+Check: 2
+Test: Print the name of each flower and where it can be grown.
+Reason: None
+Timestamp: 2025-06-30 20:48:59.633454
+
+Status: PASSED!
+Check: 2
+Test: Print the name of each flower and where it can be grown.
+Reason: None
+Timestamp: 2025-06-30 20:49:00.322270
+
+Status: PASSED!
+Check: 2
+Test: Print the name of each flower and where it can be grown.
+Reason: None
+Timestamp: 2025-06-30 20:49:01.017881
+
+Status: PASSED!
+Check: 2
+Test: Print the name of each flower and where it can be grown.
+Reason: None
+Timestamp: 2025-06-30 20:49:01.718656
+
+Status: PASSED!
+Check: 2
+Test: Print the name of each flower and where it can be grown.
+Reason: None
+Timestamp: 2025-06-30 20:49:02.411780
+
+Status: PASSED!
+Check: 2
+Test: Print the name of each flower and where it can be grown.
+Reason: None
+Timestamp: 2025-06-30 20:49:03.101638
+
+Status: PASSED!
+Check: 2
+Test: Print the name of each flower and where it can be grown.
+Reason: None
+Timestamp: 2025-06-30 20:49:03.799644
+
+Status: PASSED!
+Check: 2
+Test: Print the name of each flower and where it can be grown.
+Reason: None
+Timestamp: 2025-06-30 20:49:04.496101
 
 Status: PASSED!
 Check: 3
 Test: flowers.dat values were not hard-coded into the program.
 Reason: None
-Timestamp: 2025-06-30 19:47:23.359950
+Timestamp: 2025-06-30 20:49:04.496461
