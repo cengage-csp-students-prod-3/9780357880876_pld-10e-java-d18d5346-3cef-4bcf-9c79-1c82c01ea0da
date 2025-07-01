@@ -1,21 +1,18 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
-Test: 
-Reason: 
-Error : str - There was an issue compiling the java files.
-Timestamp: 2025-07-01 03:02:19.867650
+Test: The program accumulates totals and displays the report.
+Reason: None
+Timestamp: 2025-07-01 03:06:44.319308
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
-Test: 
-Reason: 
-Error : str - There was an issue compiling the java files.
-Timestamp: 2025-07-01 03:02:19.867809
+Test: The program accumulates totals and displays the report.
+Reason: None
+Timestamp: 2025-07-01 03:06:46.613517
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
-Test: 
-Reason: 
-Error : str - There was an issue compiling the java files.
-Timestamp: 2025-07-01 03:02:19.867888
+Test: The program accumulates totals and displays the report.
+Reason: None
+Timestamp: 2025-07-01 03:06:48.822867
