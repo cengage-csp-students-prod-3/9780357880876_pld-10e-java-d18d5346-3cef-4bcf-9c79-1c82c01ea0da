@@ -47,8 +47,7 @@ public class SuperMarket
 			// Implement control break logic here
 			if(dayOfWeek.compareTo(prevDay) != 0)
 			{
-
-			    system.out.println(DAY_FOOTER + hoursTotal);
+                System.out.println(DAY_FOOTER + hoursTotal);
 				hoursTotal = 0;
 				prevDay = dayOfWeek;
 			}
