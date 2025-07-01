@@ -45,7 +45,27 @@ public class SuperMarket
 		while(!done)
 		{	
 			// Implement control break logic here
-		        // Include work done in the dayChange() method
+			if(dayOfWeek.compareTo(prevDay) != 0)
+			{
+
+			    system.out.println(DAY_FOOTER + hoursTotal);
+				hoursTotal = 0;
+				prevDay = dayOfWeek;
+			}
+
+			hoursTotal += hoursWorked;
+			System.out.println(prevDay + "" + hoursWorked);
+			dayOfWeek = JOptionPane.showInputDialog("Enter a day of the week or done to quit: ");
+
+            if(dayOfWeek.compareTo(SENTINEL) == 0)
+			        done = true;
+			else  
+			{
+                // Include work done in the dayChange() method
+				hoursWorkedString = JOptionPane.showInputDialog("Enter hours worked: ");
+				hoursWorked = Integer.parseInt(hoursWorkedString);
+			}
+
 		}
 	
 		System.out.println(DAY_FOOTER + hoursTotal);
