@@ -21,5 +21,22 @@ public class JumpinJive
 		// Get user input.
 		addIn = JOptionPane.showInputDialog("Enter coffee add-in or XXX to quit: ");
 		// Write the rest of the program here.
+		while(addIn.compareTo("XXX") != 0)
+		{
+			foundIt = false;
+			for(int x = 0; x < NUM_ITEMS; x++)
+			{
+				    if(addIn.compareTo(addIns[x]) == 0)
+					{
+						    System.out.println(addIn + "Price is $" + addInPrices[x]);
+							orderTotal += addInPrices[x];
+							foundIt = true;
+					}
+			}
+			if (foundIt == false)
+			System.out.println("Sorry we do not carry that.");
+			addIn = JOptionPane.showInputDialog("Enter coffee add-in or XXX to quit: ");
+		}
+		System.out.println("Order Total" + " is $" + orderTotal);
 	} 
 } 
