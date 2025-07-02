@@ -41,10 +41,16 @@ jobs:
 
   run-checks:
     runs-on: ubuntu-latest
-    name: Run check ${{ github.event.inputs.CHAPTER }} ${{ github.event.inputs.EXERCISE }} ${{ github.event.inputs.TASK }}
     steps:
+      # Install Java JDK
+      - name: Set up JDK
+        uses: actions/setup-java@v3
+        with:
+          distribution: "semeru"
+          java-version: "17"
+
       - name: Checkout student's ${{ github.event.inputs.BRANCH }}
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
         with:
           token: ${{ secrets.TEST_FILES_AUTH  }}
           ref: ${{ github.event.inputs.BRANCH }}
@@ -252,4 +258,3 @@ jobs:
           git fetch
           git merge origin/${{ github.event.inputs.BRANCH }}
           git push
-
