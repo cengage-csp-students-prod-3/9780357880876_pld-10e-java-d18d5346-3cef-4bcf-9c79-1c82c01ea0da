@@ -30,10 +30,28 @@ public class Swap
 		}
 		
 		// Test to see if the first number is greater than the second number.
+		if(first > second)
+		{
+			    temp = second;
+				second = first;
+				first = temp;
+		}
 		
 		// Test to see if the second number is greater than the third number.
+		if(second > third)
+		{
+			    temp = third;
+				third = second;
+				second = temp;
+		}
 		
 		// Test to see if the first number is greater than the second number again.
+		if(first > second)
+		{
+			    temp = second;
+				second = first;
+				first = temp;
+		}
 		
 
 		// Print values in numerical order. 
