@@ -6,6 +6,5 @@
         "**/*.csproj": true,
         "**/bin": true,
         "**/obj": true
-    },
-    "java.debug.settings.onBuildFailureProceed": true
+    }
 }
