@@ -21,18 +21,18 @@ public class Swap
 		// Get user input. 		
 		if((firstNumber = JOptionPane.showInputDialog("Enter first number: ")) != null)
 		{
-			secondNumber = JOptionPane.showInputDialog("Enter second number: ");
-			thirdNumber = JOptionPane.showInputDialog("Enter third number: ");
-			// Convert Strings to int.
-			first = Integer.parseInt(firstNumber);
-			second = Integer.parseInt(secondNumber);
-			third = Integer.parseInt(thirdNumber);
+		  secondNumber = JOptionPane.showInputDialog("Enter second number: ");
+		  thirdNumber = JOptionPane.showInputDialog("Enter third number: ");
+		  // Convert Strings to int.
+		  first = Integer.parseInt(firstNumber);
+		  second = Integer.parseInt(secondNumber);
+		  third = Integer.parseInt(thirdNumber);
 		}
 		
 		// Test to see if the first number is greater than the second number.
 		if(first > second)
 		{
-		  // Swap
+		  // Swap.
 		  temp = second;
 		  second = first;
 		  first = temp;
@@ -40,25 +40,27 @@ public class Swap
 		// Test to see if the second number is greater than the third number.
 		if(second > third)
 		{
-			    temp = third;
-				third = second;
-				second = temp;
+		  // Swap.
+		  temp = third;
+		  third = second;
+		  second = temp;
 		}
-		
 		// Test to see if the first number is greater than the second number again.
 		if(first > second)
 		{
-		  // Swap
+		  // Swap.
 		  temp = second;
 		  second = first;
 		  first = temp;
 		}
 		
-
-		// Print values in numerical order. 
+        // Print values in numerical order. 
 		System.out.println("Smallest: " + first);
 		System.out.println("Next largest: " + second);
 		System.out.println("Largest: " + third); 
+
+		// Exit the program.
+		System.exit(0);
 
 	} // End of main() method.
 } // End of Swap class.
