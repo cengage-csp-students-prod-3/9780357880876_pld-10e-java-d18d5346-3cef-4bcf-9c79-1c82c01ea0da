@@ -1,35 +1,35 @@
 
 Status: FAILED!
 Check: 1
-Test: 
-Reason: 
-Error : str - There was an issue compiling the java files.
-Timestamp: 2025-07-09 05:11:51.156010
+Test: 2 year old, 3 days
+Reason: NoExitException - `System.exit(0)` was detected and executed in your code. Please remove it from your code as it terminates the running tests.
+Error : str - AssertionError
+Timestamp: 2025-07-09 05:36:15.086778
 
 Status: FAILED!
 Check: 2
-Test: 
-Reason: 
-Error : str - There was an issue compiling the java files.
-Timestamp: 2025-07-09 05:11:51.156177
+Test: 1 year old, 4 days
+Reason: NoExitException - `System.exit(0)` was detected and executed in your code. Please remove it from your code as it terminates the running tests.
+Error : str - AssertionError
+Timestamp: 2025-07-09 05:36:18.167702
 
 Status: FAILED!
 Check: 3
-Test: 
-Reason: 
-Error : str - There was an issue compiling the java files.
-Timestamp: 2025-07-09 05:11:51.156261
+Test: 3 year old, 1 day
+Reason: NoExitException - `System.exit(0)` was detected and executed in your code. Please remove it from your code as it terminates the running tests.
+Error : str - AssertionError
+Timestamp: 2025-07-09 05:36:20.606880
 
 Status: FAILED!
 Check: 4
-Test: 
-Reason: 
-Error : str - There was an issue compiling the java files.
-Timestamp: 2025-07-09 05:11:51.156328
+Test: 0 year old, 5 days
+Reason: NoExitException - `System.exit(0)` was detected and executed in your code. Please remove it from your code as it terminates the running tests.
+Error : str - AssertionError
+Timestamp: 2025-07-09 05:36:22.917786
 
 Status: FAILED!
 Check: 5
-Test: 
-Reason: 
-Error : str - There was an issue compiling the java files.
-Timestamp: 2025-07-09 05:11:51.156391
+Test: 4 year old, 2 days
+Reason: NoExitException - `System.exit(0)` was detected and executed in your code. Please remove it from your code as it terminates the running tests.
+Error : str - AssertionError
+Timestamp: 2025-07-09 05:36:25.148074
