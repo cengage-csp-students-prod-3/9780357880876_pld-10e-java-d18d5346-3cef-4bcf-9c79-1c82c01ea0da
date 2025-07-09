@@ -1,35 +1,30 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: 2 year old, 3 days
-Reason: NoExitException - `System.exit(0)` was detected and executed in your code. Please remove it from your code as it terminates the running tests.
-Error : str - AssertionError
-Timestamp: 2025-07-09 06:08:16.206979
+Reason: None
+Timestamp: 2025-07-09 06:11:04.144550
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: 1 year old, 4 days
-Reason: NoExitException - `System.exit(0)` was detected and executed in your code. Please remove it from your code as it terminates the running tests.
-Error : str - AssertionError
-Timestamp: 2025-07-09 06:08:19.086021
+Reason: None
+Timestamp: 2025-07-09 06:11:07.284947
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: 3 year old, 1 day
-Reason: NoExitException - `System.exit(0)` was detected and executed in your code. Please remove it from your code as it terminates the running tests.
-Error : str - AssertionError
-Timestamp: 2025-07-09 06:08:21.439432
+Reason: None
+Timestamp: 2025-07-09 06:11:09.567346
 
-Status: FAILED!
+Status: PASSED!
 Check: 4
 Test: 0 year old, 5 days
-Reason: NoExitException - `System.exit(0)` was detected and executed in your code. Please remove it from your code as it terminates the running tests.
-Error : str - AssertionError
-Timestamp: 2025-07-09 06:08:23.680910
+Reason: None
+Timestamp: 2025-07-09 06:11:11.810915
 
-Status: FAILED!
+Status: PASSED!
 Check: 5
 Test: 4 year old, 2 days
-Reason: NoExitException - `System.exit(0)` was detected and executed in your code. Please remove it from your code as it terminates the running tests.
-Error : str - AssertionError
-Timestamp: 2025-07-09 06:08:25.872768
+Reason: None
+Timestamp: 2025-07-09 06:11:14.125892
