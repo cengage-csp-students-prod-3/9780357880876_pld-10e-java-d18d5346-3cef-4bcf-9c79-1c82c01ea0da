@@ -37,6 +37,5 @@ public class DayCare
 		// This is the work done in the finish() method
         System.out.println("End of program");
       
-		System.exit(0);
 	} // End of main() method.
 } // End of DayCare class.
