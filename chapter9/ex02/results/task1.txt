@@ -1,0 +1,18 @@
+
+Status: PASSED!
+Check: 1
+Test: The `sums()` method displays the sum of all numbers up to the input argument.
+Reason: None
+Timestamp: 2025-07-12 08:43:19.892763
+
+Status: PASSED!
+Check: 2
+Test: The `sums()` method displays the sum of all numbers up to the input argument.
+Reason: None
+Timestamp: 2025-07-12 08:43:21.246251
+
+Status: PASSED!
+Check: 3
+Test: The `sums()` method displays the sum of all numbers up to the input argument.
+Reason: None
+Timestamp: 2025-07-12 08:43:22.417115
