@@ -16,22 +16,34 @@ public class SumAndProduct
 		
       while(number != 0)
       {
-         // call sums() method here 
-         
-	 // call products() method here
-	 
-	 numberString = JOptionPane.showInputDialog("Enter a positive integer or 0 to quit: ");
+         sums(number);
+	      products(number);
+	      numberString = JOptionPane.showInputDialog("Enter a positive integer or 0 to quit: ");
          number = Integer.parseInt(numberString); 
       }
 
+      System.exit(0);
+	
    } // End of main() method.
-	
-	
-   // Write sums() method here.
-   
+  
+   public static void sums(int num)
+   {
+      int result = 0;
+      int i;
+      for(i = 1; i <= num; i++)
+         result += i;
+      System.out.println("The sum is " + result + ".");
+   }
 
    // Write products() method here.
-   
+   public static void products(int num)
+   {
+      int result = 1;
+      int i;
+      for(i=1; i <= num; i++)
+         result *= i;
+      System.out.println("The product is " + result + ".");
+   }
 
 
 } // End of SumAndProduct class.
