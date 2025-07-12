@@ -3,16 +3,16 @@ Status: PASSED!
 Check: 1
 Test: The `sums()` method displays the sum of all numbers up to the input argument.
 Reason: None
-Timestamp: 2025-07-12 08:44:26.620338
+Timestamp: 2025-07-12 08:47:07.801974
 
 Status: PASSED!
 Check: 2
 Test: The `sums()` method displays the sum of all numbers up to the input argument.
 Reason: None
-Timestamp: 2025-07-12 08:44:27.944172
+Timestamp: 2025-07-12 08:47:09.020632
 
 Status: PASSED!
 Check: 3
 Test: The `sums()` method displays the sum of all numbers up to the input argument.
 Reason: None
-Timestamp: 2025-07-12 08:44:29.261487
+Timestamp: 2025-07-12 08:47:10.355535

@@ -1,21 +1,18 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: The program displays the correct sum and product for the input value.
-Reason: NoExitException - `System.exit(0)` was detected and executed in your code. Please remove it from your code as it terminates the running tests.
-Error : str - AssertionError
-Timestamp: 2025-07-12 08:44:35.561826
+Reason: None
+Timestamp: 2025-07-12 08:47:16.703977
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: The program displays the correct sum and product for the input value.
-Reason: NoExitException - `System.exit(0)` was detected and executed in your code. Please remove it from your code as it terminates the running tests.
-Error : str - AssertionError
-Timestamp: 2025-07-12 08:44:38.100609
+Reason: None
+Timestamp: 2025-07-12 08:47:18.980634
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: The program displays the correct sum and product for the input value.
-Reason: NoExitException - `System.exit(0)` was detected and executed in your code. Please remove it from your code as it terminates the running tests.
-Error : str - AssertionError
-Timestamp: 2025-07-12 08:44:40.347911
+Reason: None
+Timestamp: 2025-07-12 08:47:21.267575
