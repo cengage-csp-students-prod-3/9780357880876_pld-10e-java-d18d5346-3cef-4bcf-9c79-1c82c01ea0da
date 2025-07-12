@@ -13,12 +13,22 @@ public class ArtShow
 		registerString = JOptionPane.showInputDialog("Did you preregister? Enter Y or N: ");
 				
 		// Test input here. If Y, call discount(), else call noDiscount(). 		
-	
+	    if(registerString.equals("Y"))
+		        discount();
+		else
+		        noDiscount();
+
 	} // End of main() method.
 	
-	
 	// Write discount method here.
+    public static void discount()
+	{
+		    System.out.println("You are pre-registered and qualify for a 5% discount.");
+	}
 
 	// Write noDiscount method here. 
-
+    public static void noDiscount()
+	{
+		    System.out.println("Sorry you did not pre-registered and qualify for a 5% discount.");
+	}
 } // End of ArtShow class.
