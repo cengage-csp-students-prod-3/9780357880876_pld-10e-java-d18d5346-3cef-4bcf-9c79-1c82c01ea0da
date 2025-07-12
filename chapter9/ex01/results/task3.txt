@@ -3,10 +3,10 @@ Status: PASSED!
 Check: 1
 Test: The program displays the correct message for pre-registered users.
 Reason: None
-Timestamp: 2025-07-12 04:29:59.304187
+Timestamp: 2025-07-12 04:30:56.557651
 
 Status: PASSED!
 Check: 2
 Test: The program displays the correct message for pre-registered users.
 Reason: None
-Timestamp: 2025-07-12 04:30:01.882469
+Timestamp: 2025-07-12 04:30:59.074724
