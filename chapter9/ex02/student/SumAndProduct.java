@@ -22,7 +22,6 @@ public class SumAndProduct
          number = Integer.parseInt(numberString); 
       }
 
-      System.exit(0);
 	
    } // End of main() method.
   
