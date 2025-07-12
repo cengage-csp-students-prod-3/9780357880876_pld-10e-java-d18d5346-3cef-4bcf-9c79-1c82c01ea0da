@@ -1,8 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: The `noDiscount()` method displays the correct message.
-Reason: The `noDiscount() method did not display 'Sorry, you did not pre-register and do not qualify for a 5 percent discount.'.
-Double check you have the message correct.
-Error : str - AssertionError
-Timestamp: 2025-07-12 04:28:47.565698
+Reason: None
+Timestamp: 2025-07-12 04:29:55.901580
