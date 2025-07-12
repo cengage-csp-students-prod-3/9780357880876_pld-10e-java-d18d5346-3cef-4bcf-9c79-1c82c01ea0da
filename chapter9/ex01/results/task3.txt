@@ -3,11 +3,11 @@ Status: PASSED!
 Check: 1
 Test: The program displays the correct message for pre-registered users.
 Reason: None
-Timestamp: 2025-07-12 04:25:13.074513
+Timestamp: 2025-07-12 04:27:21.441688
 
 Status: FAILED!
 Check: 2
 Test: The program displays the correct message for pre-registered users.
 Reason: expected: <true> but was: <false>
 Error : str - AssertionError
-Timestamp: 2025-07-12 04:25:15.684817
+Timestamp: 2025-07-12 04:27:23.910900
