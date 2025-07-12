@@ -29,6 +29,6 @@ public class ArtShow
 	// Write noDiscount method here. 
     public static void noDiscount()
 	{
-		    System.out.println("Sorry you did not pre-registered and qualify for a 5% discount.");
+		    System.out.println("Sorry, you did not pre-register and do not qualify for a 5 percent discount.");
 	}
 } // End of ArtShow class.
