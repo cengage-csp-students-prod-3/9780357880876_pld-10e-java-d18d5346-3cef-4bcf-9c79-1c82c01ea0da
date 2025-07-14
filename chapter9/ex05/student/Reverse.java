@@ -2,7 +2,6 @@
 // Input:  Interactive.
 // Output:  Original contents of array and the reversed contents of the array. 
 
-
 public class Reverse
 {
 	public static void main(String args[]) 
