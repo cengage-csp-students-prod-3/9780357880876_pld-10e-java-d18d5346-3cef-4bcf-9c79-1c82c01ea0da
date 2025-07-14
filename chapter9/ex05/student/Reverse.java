@@ -2,7 +2,6 @@
 // Input:  Interactive.
 // Output:  Original contents of array and the reversed contents of the array. 
 
-import javax.swing.*;
 
 public class Reverse
 {
