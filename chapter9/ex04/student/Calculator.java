@@ -18,8 +18,7 @@ public class Calculator
 		numberTwoString = JOptionPane.showInputDialog("Enter the second number: ");
 		numberTwo = Double.parseDouble(numberTwoString); 
 		operation = JOptionPane.showInputDialog("Enter an operator (+.-.*,/,%): ");
-		
-		// Call performOperation method here		
+				
 		result = performanceOperation(numberOne, numberTwo, operation);
 
 		System.out.format("%.2f",numberOne);
@@ -28,9 +27,9 @@ public class Calculator
 		System.out.print(" = ");
 		System.out.format("%.2f", result);
 
-	} // End of main() method.
+	    System.exit(0);
 	
-	
+	}
 	
 	// Write performOperation method here.
 	public static double performanceOperation(double numOne, double numTwo, String operation)
