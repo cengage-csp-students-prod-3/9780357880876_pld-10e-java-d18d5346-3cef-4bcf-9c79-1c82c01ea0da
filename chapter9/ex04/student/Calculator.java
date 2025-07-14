@@ -18,8 +18,9 @@ public class Calculator
 		numberTwoString = JOptionPane.showInputDialog("Enter the second number: ");
 		numberTwo = Double.parseDouble(numberTwoString); 
 		operation = JOptionPane.showInputDialog("Enter an operator (+.-.*,/,%): ");
-				
-		result = performanceOperation(numberOne, numberTwo, operation);
+		
+		// Call performOperation method here		
+		
 
 		System.out.format("%.2f",numberOne);
 		System.out.print(" " + operation + " ");
@@ -27,32 +28,10 @@ public class Calculator
 		System.out.print(" = ");
 		System.out.format("%.2f", result);
 
-	    System.exit(0);
+	} // End of main() method.
 	
-	}
 	
 	// Write performOperation method here.
-	public static double performanceOperation(double numOne, double numTwo, String operation)
-	{
-		double result = 0;
-		if(operation.equals("+"))
-			result = numOne + numTwo;
-		else if(operation.equals("-"))
-			result = numOne - numTwo;
-		else if(operation.equals("*"))
-			result = numOne * numTwo;
-		else if(operation.equals("/")) {
-			if (numTwo ==0)
-                 System.out.println("Division by 0 is not allowed.");
-            else
-				result = numOne / numTwo;
-		}
-		else if(operation.equals("%"))
-			result = numOne % numTwo;
-		else 
-			System.out.println("Error. not a valid operator");
-	        
-        return(result);
+	
 
-	} // End of performOperation() method	
 } // End of Calculator class.
