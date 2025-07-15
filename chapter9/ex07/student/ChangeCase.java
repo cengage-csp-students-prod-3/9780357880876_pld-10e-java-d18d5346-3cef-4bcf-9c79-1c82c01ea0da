@@ -15,10 +15,10 @@ public class ChangeCase
        	while(sample.compareTo("done") != 0)
 		{
 			// Call toLowerCase() method here and print the result.		
-			
+			result = sample.toLowerCase();
 			System.out.println("Lowercase: " + result);
 			// Call toUpperCase() method here and print the result.	
-			
+			result = sample.toUpperCase();
 			System.out.println("Uppercase: " + result);
 			sample = JOptionPane.showInputDialog("Enter a string or done when you want to quit.");
 		}						
