@@ -12,18 +12,18 @@ public class ChangeCase
 
 		sample = JOptionPane.showInputDialog("Enter a string or done when you want to quit.");
 		 
-       	while(sample.compareTo("done") != 0)
+       	    while(sample.compareTo("done") != 0)
 		{
-			// Call toLowerCase() method here and print the result.		
-			result = sample.toLowerCase();
-			System.out.println("Lowercase: " + result);
-			// Call toUpperCase() method here and print the result.	
-			result = sample.toUpperCase();
-			System.out.println("Uppercase: " + result);
-			sample = JOptionPane.showInputDialog("Enter a string or done when you want to quit.");
+		  // Call toLowerCase() method here and print the result.		
+		  result = sample.toLowerCase();
+		  System.out.println("Lowercase: " + result);
+		  // Call toUpperCase() method here and print the result.	
+		  result = sample.toUpperCase();
+		  System.out.println("Uppercase: " + result);
+		  sample = JOptionPane.showInputDialog("Enter a string or done when you want to quit.");
 		}						
 		
 		System.exit(0);
 
 	} // End of main() method.	
-} // En
+} // End of changeCase class.
