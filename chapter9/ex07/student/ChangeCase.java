@@ -23,7 +23,6 @@ public class ChangeCase
 		  sample = JOptionPane.showInputDialog("Enter a string or done when you want to quit.");
 		}						
 		
-		System.exit(0);
 
 	} // End of main() method.	
 } // End of changeCase class.
