@@ -1,0 +1,21 @@
+
+Status: FAILED!
+Check: 1
+Test: The program converts input to both upper and lower case.
+Reason: NoExitException - `System.exit(0)` was detected and executed in your code. Please remove it from your code as it terminates the running tests.
+Error : str - AssertionError
+Timestamp: 2025-07-15 02:49:57.429128
+
+Status: FAILED!
+Check: 2
+Test: The program converts input to both upper and lower case.
+Reason: NoExitException - `System.exit(0)` was detected and executed in your code. Please remove it from your code as it terminates the running tests.
+Error : str - AssertionError
+Timestamp: 2025-07-15 02:49:59.072609
+
+Status: FAILED!
+Check: 3
+Test: The program converts input to both upper and lower case.
+Reason: NoExitException - `System.exit(0)` was detected and executed in your code. Please remove it from your code as it terminates the running tests.
+Error : str - AssertionError
+Timestamp: 2025-07-15 02:50:00.701053
