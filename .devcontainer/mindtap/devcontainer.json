@@ -20,14 +20,18 @@
         "java.sources.organizeImports.staticStarThreshold": 9999,
         "java.debug.settings.enableRunDebugCodeLens": false,
         "workbench.view.testing.visible": false,
-        "java.project.referencedLibraries": ["**/*.java"]
+        "java.project.referencedLibraries": [
+          "**/*.java"
+        ],
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "redhat.java"
+        
       }
     }
   },
   "features": {
     "ghcr.io/devcontainers/features/desktop-lite:1": {}
   },
-
   "forwardPorts": [3005, 6080],
   "portsAttributes": {
     "3005": {
